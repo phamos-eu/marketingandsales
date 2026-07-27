@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=41.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "marketingandsales"
+version = "0.0.1"
+description = "A Frappe app for managing marketing and sales workflows."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "AGPL-3.0"}
+authors = [
+    {name = "Phamos EU", email = "support@phamos.eu"}
+]
+keywords = ["frappe", "erpnext", "marketing", "sales"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Framework :: Frappe",
+    "Topic :: Office/Business",
+]
+dependencies = [
+    "frappe>=16.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/phamos-eu/marketingandsales"
+Documentation = "https://github.com/phamos-eu/marketingandsales#readme"
+Repository = "https://github.com/phamos-eu/marketingandsales"
+Issues = "https://github.com/phamos-eu/marketingandsales/issues"
+
+[tool.setuptools]
+packages = ["marketingandsales"]
+include-package-data = true
