@@ -84,7 +84,7 @@ const fetchLeads = async () => {
   try {
     loading.value = true
     error.value = null
-    const response = await window.frappe.call('marketingandsales.api.leads.get_leads')
+    const response = await window.frappe.call('marketing_and_sales.api.leads.get_leads')
     leads.value = response.message || []
   } catch (e) {
     error.value = e.message || 'Failed to fetch leads'
