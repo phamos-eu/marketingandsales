@@ -20,5 +20,5 @@ app_version = "0.0.1"
 # -------------------
 
 website_route_rules = [
-	{"from_route": "/sales", "to_route": "Sales"}
+	{"from_route": "/sales", "to_route": "sales"}
 ]
