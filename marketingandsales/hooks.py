@@ -38,6 +38,13 @@ app_version = "0.0.1"
 # 	"Role": "home" #  for role in ["Role"]
 # }
 
+# Website Route Rules
+# -------------------
+
+website_route_rules = [
+	{"from_route": "/sales", "to_route": "Sales"}
+]
+
 # Generators
 # ----------
 
