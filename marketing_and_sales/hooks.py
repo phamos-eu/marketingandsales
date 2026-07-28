@@ -20,12 +20,12 @@ app_version = "0.0.1"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/marketingandsales/css/marketingandsales.css"
-# app_include_js = "/assets/marketingandsales/js/marketingandsales.js"
+# app_include_css = "/assets/marketing_and_sales/css/marketing_and_sales.css"
+# app_include_js = "/assets/marketing_and_sales/js/marketing_and_sales.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/marketingandsales/css/web.css"
-# web_include_js = "/assets/marketingandsales/js/web.js"
+# web_include_css = "/assets/marketing_and_sales/css/web.css"
+# web_include_js = "/assets/marketing_and_sales/js/web.js"
 
 # Home Pages
 # ----------
@@ -54,15 +54,15 @@ website_route_rules = [
 # Installation
 # ------------
 
-# before_install = "marketingandsales.install.before_install"
-# after_install = "marketingandsales.install.after_install"
+# before_install = "marketing_and_sales.install.before_install"
+# after_install = "marketing_and_sales.install.after_install"
 
 # Desk Notifications
 # ------------------
 
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "marketingandsales.notifications.update_notification_config"
+# notification_config = "marketing_and_sales.notifications.update_notification_config"
 
 # Permissions
 # ------------
@@ -126,5 +126,5 @@ website_route_rules = [
 # --------
 
 # auto_patch = [
-# 	"marketingandsales.patches.update_patch.update_patch"
+# 	"marketing_and_sales.patches.update_patch.update_patch"
 # ]
