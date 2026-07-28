@@ -4,6 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "marketingandsales"
+version = "0.0.1"
 authors = [
     { name = "Phamos EU", email = "support@phamos.eu"}
 ]
