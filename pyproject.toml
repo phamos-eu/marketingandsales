@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=41.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "marketingandsales"
 authors = [
@@ -6,13 +10,8 @@ authors = [
 description = "A Frappe app for managing marketing and sales workflows."
 requires-python = ">=3.8"
 readme = "README.md"
-dynamic = ["version"]
 license = { text = "AGPL-3.0" }
 dependencies = []
-
-[build-system]
-requires = ["flit_core >=3.4,<4"]
-build-backend = "flit_core.buildapi"
 
 [tool.bench.frappe-dependencies]
 frappe = ">=16.0.0,<17.0.0"
