@@ -2,7 +2,5 @@
 # For license information, see LICENSE or https://www.gnu.org/licenses/agpl-3.0
 
 """
-Marketing and Sales App for Frappe Framework v16
+Marketing and Sales App module
 """
-
-from . import marketingandsales
