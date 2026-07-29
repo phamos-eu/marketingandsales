@@ -4,5 +4,3 @@
 """
 Marketing and Sales App for Frappe Framework v16
 """
-
-from . import marketingandsales
