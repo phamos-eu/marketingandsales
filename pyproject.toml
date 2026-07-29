@@ -15,7 +15,7 @@ license = "AGPL-3.0"
 dependencies = []
 
 [tool.setuptools]
-packages = ["marketingandsales"]
+packages = ["marketing_and_sales"]
 
 [tool.bench.frappe-dependencies]
 frappe = ">=16.0.0,<17.0.0"
