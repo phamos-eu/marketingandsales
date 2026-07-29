@@ -8,7 +8,7 @@ Hooks for Marketing and Sales App
 from __future__ import unicode_literals
 import frappe
 
-app_name = "marketing_and_sales"
+app_name = "marketingandsales"
 app_title = "Marketing and Sales"
 app_publisher = "Phamos EU"
 app_description = "A Frappe app for managing marketing and sales workflows."
