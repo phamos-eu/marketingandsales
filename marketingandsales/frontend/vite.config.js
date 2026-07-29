@@ -15,9 +15,9 @@ export default defineConfig({
 			jinjaBootData: true,
 			frontendRoute: '/sales',
 			buildConfig: {
-				outDir: '../marketingandsales/public/frontend',
+				outDir: '../public/frontend',
 				baseUrl: '/assets/marketingandsales/frontend/',
-				indexHtmlPath: '../marketingandsales/www/sales.html',
+				indexHtmlPath: '../www/sales.html',
 				emptyOutDir: true,
 				sourcemap: true,
 			},
