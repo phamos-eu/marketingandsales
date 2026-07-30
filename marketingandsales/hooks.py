@@ -20,5 +20,12 @@ app_version = "0.0.1"
 # -------------------
 
 website_route_rules = [
-	{"from_route": "/sales", "to_route": "sales"}
+	{"from_route": "/sales", "to_route": "sales"},
 ]
+
+# Website Context
+# -----------------
+
+website_context = {
+	"sales": "marketingandsales/www/sales.py"
+}
