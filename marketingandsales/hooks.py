@@ -16,6 +16,9 @@ app_email = "support@phamos.eu"
 app_license = "AGPL-3.0"
 app_version = "0.0.1"
 
+# Disable frontend build (SPA is built separately via Vite)
+no_build = True
+
 # Website Route Rules
 # -------------------
 
